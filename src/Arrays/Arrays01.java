@@ -1,4 +1,4 @@
-package src;
+package src.Arrays;
 
 public class Arrays01 {
     public static void main(String[] args) {
