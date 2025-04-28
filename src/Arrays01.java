@@ -1,3 +1,5 @@
+package src;
+
 public class Arrays01 {
     public static void main(String[] args) {
 
@@ -6,5 +8,8 @@ public class Arrays01 {
 
         int [] idades = new int[3];
         //System.out.printf(idades);  ao ser printado um objeto, ele apenas demosntra seu endereço na memória
+        //para inicializar um array é preciso determinar quanto espaço da memória ele alocará
+        //array tem valor inicial igual a 0
+        System.out.println(idades[1]);
     }
 }
