@@ -8,4 +8,3 @@ public class Arrays01 {
         //System.out.printf(idades);  ao ser printado um objeto, ele apenas demosntra seu endereço na memória
     }
 }
-    
