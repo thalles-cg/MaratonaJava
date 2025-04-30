@@ -20,5 +20,25 @@ public class Calculadora {
         }
         System.out.println(num1/num2);
     }
+
+    public boolean verificaPrimo (int num) {
+        if (num == 0) return false;
+        if (num == 1) return true;
+        for (int i = 2; i < num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public int[] dobrarArray (int [] numArray) {
+        int[] novoArray = new int[numArray.length];
+        for (int i = 0; i < numArray.length; i++) {
+            novoArray[i] = numArray[i] * 2;
+            System.out.println(novoArray[i]);
+        }
+        return novoArray;
+    }
 }
 
