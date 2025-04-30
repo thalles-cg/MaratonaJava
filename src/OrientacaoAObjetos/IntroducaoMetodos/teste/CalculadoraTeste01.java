@@ -18,5 +18,10 @@ public class CalculadoraTeste01 {
         calculadora.somaDoisNumeros();
         calculadora.multiplicaDoisNumeros(10, 3);
 
+
+        // Uma regra importante sobre o metodo, é que quando ele recebe um argumento do tipo primitivo para ser alterado dentro dele, se o metodo não retornar a
+        // variável de volta, ela se manterá como foi inicializada na main.
+        // Já quando é para objetos no argumento, ele copia um endereço na memória, podendo assim alterar alguns atributos do objeto. Porém, quando tentamos
+        // criar um outro ponto de referência com base no mesmo objeto que estava no parâmetro, ele não altera o objeto da main.
     }
 }

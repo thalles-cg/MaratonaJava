@@ -40,5 +40,15 @@ public class Calculadora {
         }
         return novoArray;
     }
+
+    // O parâmetro int...numeros, significa que dentro do argumento da chamada de uma variável pode ser tanto um array como um conjuunto de números
+    // Um adendo importante é que utilizar o varArgs junto de outros parâmetros é não recomedável, pois ele pode interpretar os outros parâmetros como parte do array.
+    public void somarArray (int...numeros){
+        int soma = 0;
+        for (int num:numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
 
