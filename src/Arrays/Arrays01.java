@@ -27,5 +27,11 @@ public class Arrays01 {
          */
         System.out.println(nomes[0] + " " + nomes[1]);
 
+        nomes[0] = "manuel";
+        nomes[1] = "elias";
+        for(String nome: nomes){
+            System.out.println(nome);
+        }
+
     }
 }
