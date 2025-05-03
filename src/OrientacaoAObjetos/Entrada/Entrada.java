@@ -17,7 +17,7 @@ public class Entrada {
                 System.out.println("NÃO");
             }
             try {
-                Thread.sleep(2000); // Delay for 2000 milliseconds (2 seconds)
+                Thread.sleep(500); // Delay for 2000 milliseconds (2 seconds)
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
