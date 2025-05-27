@@ -1,6 +1,6 @@
-package src.Excecoes.teste;
+package src.Excecoes.src.Excecoes.error.teste;
 
-public class StackOverflowTest01 {
+public class    StackOverflowTest01 {
     public static void main(String[] args) {
         recursividade();
         // Uma stack é uma sequência de chamadas na memória. Um stackoverflow acontece quando essa chamada acontece tantas vezes, que acaba o espaço de memória de uma stack.
