@@ -1,6 +1,5 @@
-package Exercises.StringToken;
+package Exercises.hackerrank.Palindrome.StringToken;
 
-import java.io.*;
 import java.util.*;
 
 public class Solution {

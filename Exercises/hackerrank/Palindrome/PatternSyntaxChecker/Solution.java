@@ -1,4 +1,4 @@
-package Exercises.PatternSyntaxChecker;
+package Exercises.hackerrank.Palindrome.PatternSyntaxChecker;
 
 import java.util.Scanner;
 import java.util.regex.*;

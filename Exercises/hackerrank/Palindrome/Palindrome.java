@@ -1,4 +1,4 @@
-package Exercises.Palindrome;
+package Exercises.hackerrank.Palindrome;
 
 import java.util.*;
 
