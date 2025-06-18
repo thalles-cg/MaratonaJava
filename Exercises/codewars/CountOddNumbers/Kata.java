@@ -9,7 +9,6 @@ public class Kata {
 
 
     public static int oddCount(int n){
-
         return (int)(Math.ceil(((n-1)/2d)));
     }
 
